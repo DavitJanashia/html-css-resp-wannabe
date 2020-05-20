@@ -22,4 +22,9 @@
     width: auto;
   }
 
+  img{
+    width: 50%;
+    height: auto;
+  }
+
 }
