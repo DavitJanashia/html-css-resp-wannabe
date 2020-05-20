@@ -1,30 +1,66 @@
 *{
-  /* box-sizing: border-box;
+  box-sizing: border-box;
   padding: 5px;
   border: 1px solid black;
-  margin:0; */
+  margin:0;
 }
 
 
 @media screen and (max-width:419px){
+  body{
+    background-color: #f9f9f9;
+  }
+  .container{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
   #lezioni .row > .left, #lezioni .row > .right{
     width:100%;
     float: none;
+    margin-bottom: 25px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
   }
 
   #steps .row > .left, #steps .row > .central, #steps .row > .right{
     width:100%;
     float: none;
+    margin-bottom:25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey;
+
+  }
+
+  #why .row > .first, #why .row > .second, #why .row > .third{
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
+  }
+
+  hr{
+    display: none;
   }
 
   .row{
     width: auto;
+    margin-top:0;
   }
 
   img{
-    width: 50%;
+    max-width: 30%;
     height: auto;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  #why .row img{
+    width: 25%;
+    padding: 5px;
+  }
+
+  h1{
+    font-size: 20px;
   }
 
 }
