@@ -23,6 +23,7 @@
     margin-bottom: 25px;
     border-bottom: 1px solid grey;
     padding-bottom: 25px;
+    padding-top: 20px;
   }
 
   #steps .row > .left, #steps .row > .central, #steps .row > .right{
@@ -31,13 +32,18 @@
     margin-bottom:25px;
     padding-bottom: 25px;
     border-bottom: 1px solid grey;
+    padding-top: 20px;
 
   }
 
   #why .row > .first, #why .row > .second, #why .row > .third{
     margin-top: 20px;
-    border-bottom: 1px solid grey;
     padding-bottom: 25px;
+    padding-top: 20px;
+  }
+
+  #why .row > .first, #why .row > .second{
+    border-bottom: 1px solid grey;
   }
 
   hr{
@@ -61,7 +67,8 @@
 
   h1{
     font-size: 20px;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+    box-shadow: 2px 2px 2.5px 2.5px lightgrey;
   }
 
 }
